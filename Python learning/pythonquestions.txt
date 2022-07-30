@@ -1,0 +1,12 @@
+1. write a program in python to convert hour into second.
+2. write a program in python to take a string input, and print the characters from 2nd index to 5th index.
+3. write a program in python to reverse a string using string slice.
+4. write a program in python to copy a string using string slice.
+
+
+loop questions.
+1.write a program in python to find the sum of n natural numbers.
+2.write a program in python to print the characters of the string using while and for loop.
+3.write a program in python to print the numbers from 1 to 20 which are divisible by 3.
+4.write a program in python to find the sum of squares of n natural number.
+6.write a program in python to print the character of a string reversly.

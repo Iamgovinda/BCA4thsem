@@ -1,0 +1,26 @@
+pip freeze > requirements/req.txt
+
+---> config
+	-->__init__.py
+	-->asgi.py
+	-->wsgi.py
+	-->urls.py 
+	-->settings(dir)
+		-->base.py
+		-->env.py
+		-->__init__.py
+
+base.py
+-->path(template,static,media)
+-->timezone
+-->installed_apps
+
+
+env.py
+-->secret key 
+-->DEBUG = TRUE 
+-->DATABASE
+-->Allowed Host = ['*']
+
+change in wsgi.py and asgi.py config.py
+

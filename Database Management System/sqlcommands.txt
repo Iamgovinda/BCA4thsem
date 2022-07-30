@@ -1,0 +1,60 @@
+//show databases
+//create database arnikostudent
+//use arnikostudent
+//show tables
+//create table student(
+	std_id integer,
+	name varchar(25),
+	address varchar(50),
+	contact_number varchar(10)
+)
+
+//insert into student values(1,"binod","kathmandu","9898989898");
+
+//select * from student;
+
+//create table teacher(
+	t_id integer,
+	name varchar(25),
+	address varchar(50),
+	contact_no varchar(15),
+	primary key (t_id)
+);
+
+
+//to delete 
+//truncate table student
+//
+
+
+
+
+
+SQL Clause.
+select std_id +5 from student;
+ select * from student where std_id = 1;
+ascending order:
+ select * from student order by std_name;
+descending order;
+select * from student order by std_name desc;
+grouping.....
+select std_name from student group by dob;
+having clause:
+select * from student having dob="2015-12-11";
+distinct clause:
+select distinct dob from student;
+
+and
+select std_name from student where dob = "2020-10-10" or std_address="panauti";
+
+average--avg
+select avg(std_id) from student;
+
+count--count
+select count(*) from student where std_id=1;
+
+uppercase --ucase
+propercase --lcase
+
+
+

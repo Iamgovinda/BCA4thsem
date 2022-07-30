@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+</head>
+<body>
+    	<h1>This is heading</h1>
+	<p id="demo">Javascript can change the style of HTML element.</p>
+	<button type="button">Click Me!</button>
+	
+</body>
+</html>
+	

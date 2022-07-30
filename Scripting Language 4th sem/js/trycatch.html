@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is title</title>
+</head>
+<body>
+	<h2>Javascript Error Handling</h2>
+	<p>How to use <b>catch</b> to display an Error.</p>
+	<p id="demo"></p>
+
+	<script type="text/javascript">
+		try{
+			console.log(true&false); //this is and operator
+			console.log(true|false); //this is or operator
+			(2>3)?console.log("This is right"):console.log("This is not right"); // this is ternary operator.
+			(1>0)?console.log("Positive"):console.log("Negative");
+		}
+		catch(e)
+		{
+			document.getElementById("demo").innerHTML = e.message;
+		}
+	</script>
+
+</body>
+</html>

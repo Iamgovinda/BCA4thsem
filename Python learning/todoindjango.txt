@@ -1,0 +1,5 @@
+1. integrate websockets using channels.
+2. Integrate Celery in django
+3.use webscraping
+4.integrate payment gateway
+5. create rest api.

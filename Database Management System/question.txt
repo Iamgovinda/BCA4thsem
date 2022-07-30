@@ -1,0 +1,1 @@
+DBMS follows ACID properties what does that mean? Explain that with suitable exmple.

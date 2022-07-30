@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head><title></title></head>
+<body>
+	<script>	
+		let str = "Rabi Shrestha";
+		length = str.length;
+		length2 = length*2-1;
+		
+
+		var i,j,k,l;
+
+		for(i=0;i<length;i++)
+		{
+			
+
+			for(j=0;j<=length-i-1;j++)
+			{
+				document.write("_");
+			}
+
+			var s = str.slice(0,i+1);
+			for(k=length;k>0;k--)
+			{
+				document.write(s.slice(k,k+1));
+			}
+			document.write(s);
+
+			for(l=0;l<=length-i-1;l++)
+			{
+				document.write("_");
+			}
+			document.write("<br>");
+		}
+
+	</script>
+</body>
+</html>

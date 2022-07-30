@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p class="demo"></p>
+
+    num1: <input type="number" id="inp1"><br>
+    num2: <input type="number" id="inp2"><br>
+    num3: <input type="number" id="inp3">
+
+
+
+    <script>
+
+
+ //       if(a>b)
+ //       {
+ //           if(b>c)
+ //           {
+ //               document.write(a + ">" + b + ">" +c);
+ //           }
+ //           else
+ //           {
+ //               document.write(a + ">" + c + ">" +b);
+ //           }
+ //       }
+ //       else
+ //       {
+ //           if(b>c)
+ //           {
+ //               if(c>a)
+ //               {
+ //                   document.write(b + ">" + c + ">" +a);
+ //               }
+ //               else
+ //               {
+ //                   document.write(b + ">" + a + ">" +c);
+ //               }
+ //           }
+ //           else
+ //           {
+ //               document.write(c + ">" + b + ">" +a);
+ //           }
+//
+ //       }
+
+
+        
+
+
+        function checkgreatness(x,y,z)
+        {
+            var r = 0;
+            if(x>y && x>z) r= x;
+            if(y>x && y>z) r= y;
+            if(z>y && z>x) r= z;
+            return r;
+        }
+
+
+        document.write(great);
+    </script>
+
+
+</body>
+</html>

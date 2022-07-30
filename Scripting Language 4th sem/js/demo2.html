@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head><title></title></head>
+<body>
+	<p id="demo1"></p><br>
+	<p id="demo2"></p><br>
+	<p id="demo3"></p>
+	<script>	
+		let str = "MOM";
+		let str2="";
+		for(i=str.length;i>=0;i--){
+			str2+=str.slice(i,i+1);
+		}
+		
+		if(str===str2){
+		document.write("Palindrome");
+		}else{
+			document.write("not palindrome");
+		}
+		
+	</script>
+</body>
+</html>

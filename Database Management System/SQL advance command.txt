@@ -1,0 +1,20 @@
+1.  create user 'gobinda' identified by 'gobinda'.
+2.  grant select on arnikostudent.student to 'gobinda'.
+3. show grants for 'gobinda'.
+4. grant create session to 'gobinda'.
+
+
+5. revoke select on arnikostudent.student from 'gobinda';
+
+practice like, order by, group by, having, distinct, and, or.
+avg() functions.
+count() functions.
+first() functions.
+last() functions.
+max() functions.
+min() functions.
+sum() functions.
+ucase() functions.
+lcase() functions.
+mid() functions.
+round() functions.
